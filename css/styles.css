@@ -181,7 +181,7 @@ a.list:visited {
 .features-text {
   margin-top: 10px;
   font-size: 14px;
-  line-height: 2;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-item);
 }
@@ -283,9 +283,21 @@ margin-top: 16px;
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: #2196f3;
-  display: block;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+.team-soc-icon{
+  fill: #AFB1B8;
+}
+.team-soc-link:hover{
+  background-color: #2196f3;
+}
+.team-soc-link:hover .team-soc-icon{
+  fill: #ffffff;
+}
+
 
 .container-footer {
  
