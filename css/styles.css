@@ -172,6 +172,34 @@ a.list:visited {
    display: flex;
    gap: 30px;
 }
+.features-items-list{
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.features-items-icon{
+  width: 270px;
+  height: 120px;
+  background-position: center;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F5F4FA;
+}
+.features-icon{
+  width: 70px;
+  height: 70px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .features {
   padding-top: 94px;
@@ -297,10 +325,55 @@ margin-top: 16px;
 .team-soc-link:hover .team-soc-icon{
   fill: #ffffff;
 }
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.container-clients {
+
+}
+.clients-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  color: var(--second-title-color);
+}
+.clients-list{
+  margin: 0;
+  display: flex;
+  gap: 30px;
+}
+.clients-logo{
+  width: 170px;
+  height: 92px;
+  border-radius: 4px;
+  border: 1px solid #AFB1B8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.clients-logo-icon{
+  fill: #AFB1B8;
+}
+.clients-list-grup:hover{
+  color: #2196f3;
+}
+.clients-logo:hover{
+ border-color: #2196f3;
+}
+.clients-logo:hover .clients-logo-icon{
+  fill: #2196f3;
+}
 
 
 .container-footer {
  
+}
+.clients-list-grup{
+
 }
 .footer {
   padding-bottom: 60px;
