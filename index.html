@@ -38,10 +38,14 @@
           </ul>
         </nav>
         <a class="feader-contact" href="mailto:info@devstudio.com"
-          >info@devstudio.com</a
-        >
+            ><svg class="feader-icons" width="16" height="12">
+              <use href="./images/icons.svg#icon-envelope"></use>
+            </svg>info@devstudio.com</a
+          >
         <a class="feader-contact contact-end" href="tel:+380961111111"
-          >+38 096 111 11 11</a
+          ><svg class="feader-icons" width="10" height="16">
+            <use href="./images/icons.svg#icon-smartphone"></use>
+          </svg>+38 096 111 11 11</a
         >
       </div>
     </header>
@@ -58,12 +62,10 @@
       <section class="features">
         <div class="container features-container">
           <ul class="list list-features">
-            <li>
-              <a class="features-items" href="#">
-                <svg class="features-items-icon">
-                  <use href="./images/icons.svg#icon-antenna-1" width="70" height="70"></use>
-                </svg>
-              </a>
+            <li class="features-items">
+              <a class="features-icons-fon" href="#"><svg class="features-icons" width="70" height="70">
+                <use href="./images/icons.svg#icon-antenna-1"></use>
+              </svg></a>                        
               <h3 class="features-title">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p class="features-text">
                 Ідейні міркування, і навіть початок повсякденної роботи з
@@ -71,11 +73,9 @@
               </p>
             </li>
             <li class="features-items">
-              <a href="#">
-                <svg class="features-items-icon">
-                  <use href="./images/icons.svg#icon-antenna-1" width="70" height="70"></use>
-                </svg>
-              </a>
+              <a class="features-icons-fon" href="#"><svg class="features-icons" width="70" height="70">
+                <use href="./images/icons.svg#icon-clock-1"></use>
+              </svg></a>                        
               <h3 class="features-title">ПУНКТУАЛЬНІСТЬ</h3>
               <p class="features-text">
                 Завдання організації, особливо рамки і місце навчання кадрів
@@ -83,22 +83,18 @@
               </p>
             </li>
             <li class="features-items">
-              <a href="#">
-                <svg class="features-items-icon">
-                  <use href="./images/icons.svg#icon-antenna-1" width="70" height="70"></use>
-                </svg>
-              </a>
+              <a class="features-icons-fon" href="#"><svg class="features-icons" width="70" height="70">
+                <use href="./images/icons.svg#icon-diagram-1"></use>
+              </svg></a>
               <h3 class="features-title">ПЛАНУВАННЯ</h3>
               <p class="features-text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
             <li class="features-items">
-              <a href="#">
-                <svg class="features-items-icon">
-                  <use href="./images/icons.svg#icon-antenna-1" width="70" height="70"></use>
-                </svg>
-              </a>
+              <a class="features-icons-fon" href="#"><svg class="features-icons" width="70" height="70">
+                <use href="./images/icons.svg#icon-astronaut-1"></use>
+              </svg></a>
               <h3 class="features-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
               <p class="features-text">
                 Значимість цих проблем настільки очевидна, що реалізація
@@ -369,23 +365,42 @@
         <a href="#" class="footer-logo"
           >Web<span class="accent-footer">Studio</span></a
         >
-        <ul class="list list-footer">
-          <li class="list-info">
-            <address class="footer-address">
-              м. Київ, пр-т Лесі Українки, 26
-            </address>
-          </li>
-          <li class="list-info">
-            <a class="footer-link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="list-info">
-            <a class="footer-link end" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
-          </li>
-        </ul>
+        <div class="footer-info">
+          <ul class="list list-footer">
+            <li class="list-info">
+              <address class="footer-address">
+                м. Київ, пр-т Лесі Українки, 26
+              </address>
+            </li>
+            <li class="list-info">
+              <a class="footer-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="list-info">
+              <a class="footer-link end" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+          <div class="container footer-soc">
+            <h3 class="footer-soc-title">приєднуйтесь</h3>
+            <ul class="footer-soc-list list">
+              <li class="footer-soc-icons"><a class="footer-soc-link" href="#"><svg class="footer-icons" width="20" height="20">
+                    <use href="./images/icons.svg#icon-instagram-2"></use>
+                  </svg></a></li>
+              <li class="footer-soc-icons"><a class="footer-soc-link" href="#"><svg class="footer-icons" width="20" height="20">
+                    <use href="./images/icons.svg#icon-twitter-1"></use>
+                  </svg></a></li>
+              <li class="footer-soc-icons"><a class="footer-soc-link" href="#"><svg class="footer-icons" width="20" height="20">
+                    <use href="./images/icons.svg#icon-facebook-1"></use>
+                  </svg></a></li>
+              <li class="footer-soc-icons"><a class="footer-soc-link" href="#"><svg class="footer-icons" width="20" height="20">
+                    <use href="./images/icons.svg#icon-linkedin-1"></use>
+                  </svg></a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
