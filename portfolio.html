@@ -11,8 +11,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-		integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-		crossorigin="anonymous" referrerpolicy="no-referrer" />
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
@@ -22,15 +22,27 @@
       <a href="#" class="logo">Web<span class="accent">Studio</span></a>
       <nav class="feader-conteiner list-feader">
         <ul class="list list-feader">
-          <li class="feader-nav"><a class="feader-nav-link" href="./index.html">Студія</a></li>
+          <li class="feader-nav">
+            <a class="feader-nav-link" href="./index.html">Студія</a>
+          </li>
           <li class="feader-nav">
             <a class="feader-nav-link" href="./portfolio.html">Портфоліо</a>
           </li>
-          <li class="feader-nav"><a class="feader-nav-link nav-end" href="#">Контакти</a></li>
+          <li class="feader-nav">
+            <a class="feader-nav-link nav-end" href="#">Контакти</a>
+          </li>
         </ul>
       </nav>
-      <a class="feader-contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a class="feader-contact contact-end" href="tel:+380961111111">+38 096 111 11 11</a>
+      <a class="feader-contact" href="mailto:info@devstudio.com">
+        <svg class="feader-icons" width="16" height="12">
+          <use href="./images/icons.svg#icon-envelope"></use>
+        </svg>info@devstudio.com
+      </a>
+      <a class="feader-contact contact-end" href="tel:+380961111111">
+        <svg class="feader-icons" width="10" height="16">
+          <use href="./images/icons.svg#icon-smartphone"></use>
+        </svg>+38 096 111 11 11
+      </a>
     </div>
   </header>
   <main>
